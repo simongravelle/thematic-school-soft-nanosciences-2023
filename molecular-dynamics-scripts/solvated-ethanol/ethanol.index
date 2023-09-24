@@ -1,0 +1,26 @@
+# Pair Coeffs
+variable Ch index 3
+variable Hcc index 4
+variable Ho index 5
+variable Co index 6
+variable Oh index 7
+variable Hco index 8
+
+# Bond Coeffs
+variable Ce_Ce index 2
+variable Ce_He index 3
+variable Ce_Oe index 4
+variable Oe_He index 5
+
+# Angle Coeffs
+variable Hcc_Ch_Hcc index 2
+variable He_Ch_Co index 3
+variable Ch_Co_Oh index 4
+variable Oh_Co_Hc index 5
+variable Co_Oh_Ho index 6
+
+# Dihedral Coeffs
+variable Ch_Co_Oh_Ho index 1
+variable Hc_Ch_Co_Oh index 2
+variable Hco_Co_Oh_Ho index 3
+variable Hch_Ch_Co_Hco index 4

@@ -1,0 +1,9 @@
+# Pair Coeffs
+variable OW index 1
+variable HW index 2
+
+# Bond Coeffs
+variable OW_HW index 1
+
+# Angle Coeffs
+variable HW_OW_HW index 1

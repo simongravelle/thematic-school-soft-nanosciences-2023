@@ -1,0 +1,11 @@
+include water.index
+
+set type ${OW} charge -1.054
+set type ${HW} charge 0.527
+
+pair_coeff ${OW} ${OW} 0.1848 3.165
+pair_coeff ${HW} ${HW} 0.0000 0.000
+
+bond_coeff ${OW_HW} 0.0 0.9572
+
+angle_coeff ${HW_OW_HW} 0 104.52

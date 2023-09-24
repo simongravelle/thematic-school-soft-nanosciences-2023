@@ -1,0 +1,31 @@
+include ethanol.index
+
+set type ${Hcc} charge 0.06 # OPLS 10.1039/C8CC06587J
+set type ${Co} charge 0.145 # OPLS 10.1039/C8CC06587J
+set type ${Ch} charge -0.18 # OPLS 10.1039/C8CC06587J
+set type ${Hco} charge 0.06 # OPLS 10.1039/C8CC06587J
+set type ${Oh} charge -0.6830 # OPLS 10.1039/C8CC06587J
+set type ${Ho} charge 0.4180 # OPLS 10.1039/C8CC06587J
+
+pair_coeff ${Ch} ${Ch} 0.066 3.5 # OPLS 10.1039/C8CC06587J
+pair_coeff ${Co} ${Co} 0.066 3.5 # OPLS 10.1039/C8CC06587J
+pair_coeff ${Hcc} ${Hcc} 0.03 2.5 # OPLS 10.1039/C8CC06587J
+pair_coeff ${Ho} ${Ho} 0.0 0.0 # OPLS 10.1039/C8CC06587J
+pair_coeff ${Oh} ${Oh} 0.17 3.12 # OPLS 10.1039/C8CC06587J
+pair_coeff ${Hco} ${Hco} 0.03 2.5 # OPLS 10.1039/C8CC06587J
+
+bond_coeff ${Ce_Ce} 268 1.529 # OPLS 10.1039/C8CC06587J
+bond_coeff ${Ce_He} 340 1.09 # OPLS 10.1039/C8CC06587J
+bond_coeff ${Ce_Oe} 320 1.41 # OPLS 10.1039/C8CC06587J
+bond_coeff ${Oe_He} 553 0.945 # OPLS 10.1039/C8CC06587J
+
+angle_coeff ${Hcc_Ch_Hcc} 33 107.8 # OPLS 10.1039/C8CC06587J
+angle_coeff ${He_Ch_Co} 37.5 110.7 # OPLS 10.1039/C8CC06587J
+angle_coeff ${Ch_Co_Oh} 50 109.5 # OPLS 10.1039/C8CC06587J
+angle_coeff ${Oh_Co_Hc} 35 109.5 # OPLS 10.1039/C8CC06587J
+angle_coeff ${Co_Oh_Ho} 55 108.6 # OPLS 10.1039/C8CC06587J
+
+dihedral_coeff ${Ch_Co_Oh_Ho} -0.356 -0.174 0.492 0.0 # OPLS 10.1039/C8CC06587J
+dihedral_coeff ${Hc_Ch_Co_Oh} 0.0 0.0 0.468 0.0 # OPLS 10.1039/C8CC06587J
+dihedral_coeff ${Hco_Co_Oh_Ho} 0.0 0.0 0.450 0.0 # OPLS 10.1039/C8CC06587J
+dihedral_coeff ${Hch_Ch_Co_Hco} 0.0 0.0 0.318 0.0 # OPLS 10.1039/C8CC06587J
