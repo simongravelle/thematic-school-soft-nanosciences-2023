@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/simongravelle/thematic-school-soft-nanosciences-2023/main/molecular-dynamics-scripts/water-ethanol/image/figure1-dark.png" align="right" width="30%"/>
 </a>
 
-25 septembre 2023, Grenoble
+25 septembre 2023, UGA, Grenoble
 
 ## 1 - Install LAMMPS
 
