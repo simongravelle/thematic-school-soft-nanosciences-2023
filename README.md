@@ -12,7 +12,7 @@ the following command usually does the trick:
 sudo apt-get install lammps
 ```
 
-## 2 - Close this repository
+## 2 - Clone this repository
 
 Download the content of this repository, or clone it 
 using 
@@ -30,11 +30,17 @@ the input script:
 lmp -in input.lammps
 ```
 
-Here the input.lammps file contains all the commands that control the simulation. Each command is describe in depht on the [LAMMPS website](https://docs.lammps.org/Manual.html). 
+Here, the input.lammps file contains all the commands that control the simulation. Each command is described in depth on the [LAMMPS website](https://docs.lammps.org/Manual.html). 
 
-If you are interested to learn molecular simulations from scratch, you can find [beginners tutorials here](https://lammpstutorials.github.io/).
+If you are interested in learning molecular simulations from scratch, you can find [beginners tutorials here](https://lammpstutorials.github.io/).
 
+## 4 - Visualise the trajectory
 
+Each simulation will produce a trajectory file named "dump.lammpstrj", containing the positions of the molecules over time. You can open it using [VMD](https://www.ks.uiuc.edu/Research/vmd/),
+
+```bash
+vmd dump.lammpstrj
+```
 
 
 
