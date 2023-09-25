@@ -28,7 +28,7 @@ https://github.com/simongravelle/thematic-school-soft-nanosciences-2023.git
 ## 3 - Run a simulation
 
 Choosing any of the 3 simulations located in the [molecular-dynamics-scripts/](molecular-dynamics-scripts/) folder, run lammps by executing
-the input script:
+the input script in a terminal:
 
 ```bash
 lmp -in input.lammps
@@ -36,7 +36,7 @@ lmp -in input.lammps
 
 Here, the input.lammps file contains all the commands that control the simulation. Each command is described in depth on the [LAMMPS website](https://docs.lammps.org/Manual.html). 
 
-If you are interested in learning molecular simulations from scratch, you can find [beginners tutorials here](https://lammpstutorials.github.io/).
+If you are interested in learning molecular simulations from scratch, I recommend that you follow the [beginner tutorials here](https://lammpstutorials.github.io/).
 
 ## 4 - Visualise the trajectory
 
@@ -45,6 +45,10 @@ Each simulation will produce a trajectory file named "dump.lammpstrj", containin
 ```bash
 vmd dump.lammpstrj
 ```
+
+## Contact
+
+Please don't hesitate to send me an email at simon.gravelle at univ-grenoble-alpes.fr if you encounter difficulties when installing LAMMPS of VMD. 
 
 
 
