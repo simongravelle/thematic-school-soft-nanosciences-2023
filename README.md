@@ -1,5 +1,7 @@
 # Thematic school on soft nanosciences
 
+This repository contains simple simulations of water and ethanol that can be used with the open source software LAMMPS.
+
 <a href="">
   <img src="https://raw.githubusercontent.com/simongravelle/thematic-school-soft-nanosciences-2023/main/molecular-dynamics-scripts/water-ethanol/image/figure1-dark.png" align="right" width="30%"/>
 </a>
