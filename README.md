@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/695899700.svg)](https://zenodo.org/doi/10.5281/zenodo.13341960)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # Thematic school on soft nanosciences
 
 This repository contains simple simulations of water and ethanol that can be used with the open source software LAMMPS.
