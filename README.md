@@ -56,7 +56,11 @@ vmd dump.lammpstrj
 Please don't hesitate to send me an email at simon.gravelle at univ-grenoble-alpes.fr
 if you encounter difficulties when installing LAMMPS of VMD. 
 
+## Acknowledgments
 
+This project has received funding from the European
+Union's Horizon 2020 research and innovation programme
+under the Marie Skłodowska-Curie grant agreement No 101065060.
 
 
 
