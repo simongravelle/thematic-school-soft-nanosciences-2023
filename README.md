@@ -3,17 +3,17 @@
 
 # Thematic school on soft nanosciences
 
-This repository contains simple simulations of water and ethanol that can be used with the open source software LAMMPS.
+This repository contains simple simulations of water and ethanol that can be used with the open-source software LAMMPS.
 
 <a href="">
-  <img src="https://raw.githubusercontent.com/simongravelle/thematic-school-soft-nanosciences-2023/main/molecular-dynamics-scripts/water-ethanol/image/figure1-dark.png" align="right" width="30%"/>
+  <img src="https://raw.githubusercontent.com/simongravelle/thematic-school-soft-nanosciences-2023/main/molecular-dynamics-scripts/water-ethanol/image/figure1.png" align="right" width="30%"/>
 </a>
 
 25 septembre 2023, UGA, Grenoble
 
 ## 1 - Install LAMMPS
 
-Install the open source code LAMMPS following the instructions of 
+Install the open-source code LAMMPS following the instructions of 
 [this page](https://docs.lammps.org/Install.html). On linux system,
 the following command usually does the trick:
 
@@ -53,7 +53,8 @@ vmd dump.lammpstrj
 
 ## Contact
 
-Please don't hesitate to send me an email at simon.gravelle at univ-grenoble-alpes.fr if you encounter difficulties when installing LAMMPS of VMD. 
+Please don't hesitate to send me an email at simon.gravelle at univ-grenoble-alpes.fr
+if you encounter difficulties when installing LAMMPS of VMD. 
 
 
 
